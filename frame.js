@@ -84,7 +84,9 @@ if (window.name.startsWith('__sim__') && window !== top && parent === top) {
   let start = null, gesture = null, moved = false, axis, samples, sx, sy, snaps, glide = 0;
 
   const scroller = (el, x) => {
-    for (; el && el !== document.documentElement; el = el.parentElement) {
+    // CSS Overflow: while the root's overflow is visible, <body>'s overflow applies to the viewport, not to <body>.
+    const top = getComputedStyle(document.documentElement).overflow === 'visible' ? document.body : document.documentElement;
+    for (; el && el !== top && el !== document.documentElement; el = el.parentElement) {
       const s = getComputedStyle(el);
       if (/auto|scroll/.test(x ? s.overflowX : s.overflowY) && (x ? el.scrollWidth > el.clientWidth : el.scrollHeight > el.clientHeight)) return el;
     }

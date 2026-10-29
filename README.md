@@ -13,6 +13,8 @@ touch scrolling, Safari and Chrome toolbars, rotation and pixel-perfect screensh
 ![No dependencies](https://img.shields.io/badge/dependencies-0-success)
 ![Languages](https://img.shields.io/badge/languages-15-blueviolet)
 
+<img src="docs/demo.gif" width="800" alt="Opening the simulator on a page, touch scrolling with Safari's collapsing toolbar, rotating, and switching to a Pixel 8">
+
 </div>
 
 ---
