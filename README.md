@@ -117,7 +117,7 @@ sim.js (UI, shadow DOM) ◀──▶ background.js ◀──▶ relay.js ◀─�
 | `storage` | Remembering your device, zoom and settings |
 | `<all_urls>` host access | Working on any site you open it on, and taking screenshots |
 
-Mobile Simulator collects no data and makes no network requests of its own.
+Mobile Simulator collects no data and makes no network requests of its own. See the [privacy policy](PRIVACY.md).
 
 ## Limitations
 
@@ -148,3 +148,7 @@ Issues and pull requests are welcome. To add a language, copy `_locales/en/messa
 `_locales/<locale>/messages.json` and translate the `message` values. `<locale>` is a
 [Chrome locale code](https://developer.chrome.com/docs/extensions/reference/api/i18n#locales) such as `pt_PT`
 or `nl`.
+
+## License
+
+[MIT](LICENSE)
