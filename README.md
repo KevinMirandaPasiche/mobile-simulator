@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icons/128.png" width="96" alt="">
+<img src="docs/hero.png" alt="Mobile Simulator: an iPhone, a Pixel and an iPad showing the same responsive website">
 
 # Mobile Simulator
 
@@ -13,8 +13,6 @@ touch scrolling, Safari and Chrome toolbars, rotation and pixel-perfect screensh
 ![No dependencies](https://img.shields.io/badge/dependencies-0-success)
 ![Languages](https://img.shields.io/badge/languages-15-blueviolet)
 
-<img src="docs/demo.gif" width="800" alt="Opening the simulator on a page, touch scrolling with Safari's collapsing toolbar, rotating, and switching to a Pixel 8">
-
 </div>
 
 ---
@@ -25,6 +23,8 @@ DevTools' device mode resizes the page, but it doesn't feel like a phone. Mobile
 real device frame, on the **same origin**, so your cookies, session and local storage keep working, and the address
 bar never leaves your site. It's built for checking a layout quickly while you develop: click the icon, look, click
 it again.
+
+<p align="center"><img src="docs/demo.gif" width="800" alt="Opening the simulator on a page, touch scrolling with Safari's collapsing toolbar, rotating, and switching to a Pixel 8"></p>
 
 ## Features
 
