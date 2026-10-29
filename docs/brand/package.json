@@ -3,7 +3,8 @@
   "scripts": {
     "hero": "node render.js",
     "devices": "node render.js devices",
-    "icons": "python3 icon/gen.py && node render.js icons"
+    "icons": "python3 icon/gen.py && node render.js icons",
+    "store": "node render.js store"
   },
   "devDependencies": {
     "puppeteer": "^24.0.0"
