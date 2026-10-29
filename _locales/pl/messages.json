@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Symulator mobilny"
+  },
+  "extDescription": {
+    "message": "Testuj responsywność dowolnej strony w ramkach iPhone'a, Androida i tabletów."
+  },
+  "actionTitle": {
+    "message": "Otwórz w symulatorze mobilnym"
+  },
+  "simulator": {
+    "message": "Symulator"
+  },
+  "close": {
+    "message": "Zamknij symulator"
+  },
+  "device": {
+    "message": "Urządzenie"
+  },
+  "urlPlaceholder": {
+    "message": "Wyszukaj lub wpisz adres"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "reload": {
+    "message": "Odśwież"
+  },
+  "rotate": {
+    "message": "Obróć"
+  },
+  "screenshot": {
+    "message": "Zrzut ekranu"
+  },
+  "settings": {
+    "message": "Ustawienia"
+  },
+  "zoomIn": {
+    "message": "Powiększ"
+  },
+  "zoomOut": {
+    "message": "Pomniejsz"
+  },
+  "actualSize": {
+    "message": "Rzeczywisty rozmiar"
+  },
+  "fit": {
+    "message": "Dopasuj do okna"
+  },
+  "deviceFrame": {
+    "message": "Ramka urządzenia"
+  },
+  "syncScroll": {
+    "message": "Synchroniczne przewijanie"
+  },
+  "touchScroll": {
+    "message": "Przewijanie dotykowe"
+  },
+  "appearance": {
+    "message": "Wygląd"
+  },
+  "theme": {
+    "message": "Motyw"
+  },
+  "themeSystem": {
+    "message": "Systemowy"
+  },
+  "themeLight": {
+    "message": "Jasny"
+  },
+  "themeDark": {
+    "message": "Ciemny"
+  },
+  "screenMode": {
+    "message": "Tryb wyświetlania"
+  },
+  "modeBrowser": {
+    "message": "Przeglądarka"
+  },
+  "modeFullscreen": {
+    "message": "Pełny ekran"
+  },
+  "back": {
+    "message": "Wstecz"
+  },
+  "tabs": {
+    "message": "Karty"
+  },
+  "tablets": {
+    "message": "Tablety"
+  },
+  "unfolded": {
+    "message": "rozłożony"
+  },
+  "cspBlocked": {
+    "message": "Ta strona nie pozwala na nawigację w symulatorze"
+  },
+  "cspReloading": {
+    "message": "Ponowne ładowanie strony, aby telefon mógł nawigować…"
+  },
+  "capturing": {
+    "message": "Przechwytywanie w wysokiej rozdzielczości…"
+  },
+  "shotSaved": {
+    "message": "Zapisano zrzut ekranu"
+  },
+  "shotFailed": {
+    "message": "Nie udało się zrobić zrzutu ekranu"
+  },
+  "noResponse": {
+    "message": "rozszerzenie nie odpowiedziało"
+  }
+}

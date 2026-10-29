@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Mobil-Simulator"
+  },
+  "extDescription": {
+    "message": "Teste die Responsivität jeder Website in iPhone-, Android- und Tablet-Rahmen."
+  },
+  "actionTitle": {
+    "message": "Im Mobil-Simulator öffnen"
+  },
+  "simulator": {
+    "message": "Simulator"
+  },
+  "close": {
+    "message": "Simulator schließen"
+  },
+  "device": {
+    "message": "Gerät"
+  },
+  "urlPlaceholder": {
+    "message": "Suchen oder Adresse eingeben"
+  },
+  "address": {
+    "message": "Adresse"
+  },
+  "reload": {
+    "message": "Neu laden"
+  },
+  "rotate": {
+    "message": "Drehen"
+  },
+  "screenshot": {
+    "message": "Screenshot"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "zoomIn": {
+    "message": "Vergrößern"
+  },
+  "zoomOut": {
+    "message": "Verkleinern"
+  },
+  "actualSize": {
+    "message": "Originalgröße"
+  },
+  "fit": {
+    "message": "An Fenster anpassen"
+  },
+  "deviceFrame": {
+    "message": "Geräterahmen"
+  },
+  "syncScroll": {
+    "message": "Synchrones Scrollen"
+  },
+  "touchScroll": {
+    "message": "Touch-Scrollen"
+  },
+  "appearance": {
+    "message": "Darstellung"
+  },
+  "theme": {
+    "message": "Design"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "screenMode": {
+    "message": "Anzeigemodus"
+  },
+  "modeBrowser": {
+    "message": "Browser"
+  },
+  "modeFullscreen": {
+    "message": "Vollbild"
+  },
+  "back": {
+    "message": "Zurück"
+  },
+  "tabs": {
+    "message": "Tabs"
+  },
+  "tablets": {
+    "message": "Tablets"
+  },
+  "unfolded": {
+    "message": "aufgeklappt"
+  },
+  "cspBlocked": {
+    "message": "Diese Seite erlaubt keine Navigation im Simulator"
+  },
+  "cspReloading": {
+    "message": "Seite wird neu geladen, damit das Telefon navigieren kann…"
+  },
+  "capturing": {
+    "message": "Aufnahme in hoher Auflösung…"
+  },
+  "shotSaved": {
+    "message": "Screenshot gespeichert"
+  },
+  "shotFailed": {
+    "message": "Screenshot fehlgeschlagen"
+  },
+  "noResponse": {
+    "message": "die Erweiterung hat nicht geantwortet"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Simulatore mobile"
+  },
+  "extDescription": {
+    "message": "Prova la reattività di qualsiasi sito in cornici di iPhone, Android e tablet."
+  },
+  "actionTitle": {
+    "message": "Apri nel simulatore mobile"
+  },
+  "simulator": {
+    "message": "Simulatore"
+  },
+  "close": {
+    "message": "Chiudi simulatore"
+  },
+  "device": {
+    "message": "Dispositivo"
+  },
+  "urlPlaceholder": {
+    "message": "Cerca o inserisci indirizzo"
+  },
+  "address": {
+    "message": "Indirizzo"
+  },
+  "reload": {
+    "message": "Ricarica"
+  },
+  "rotate": {
+    "message": "Ruota"
+  },
+  "screenshot": {
+    "message": "Screenshot"
+  },
+  "settings": {
+    "message": "Impostazioni"
+  },
+  "zoomIn": {
+    "message": "Ingrandisci"
+  },
+  "zoomOut": {
+    "message": "Riduci"
+  },
+  "actualSize": {
+    "message": "Dimensioni reali"
+  },
+  "fit": {
+    "message": "Adatta alla finestra"
+  },
+  "deviceFrame": {
+    "message": "Cornice del dispositivo"
+  },
+  "syncScroll": {
+    "message": "Scorrimento sincronizzato"
+  },
+  "touchScroll": {
+    "message": "Scorrimento touch"
+  },
+  "appearance": {
+    "message": "Aspetto"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "themeLight": {
+    "message": "Chiaro"
+  },
+  "themeDark": {
+    "message": "Scuro"
+  },
+  "screenMode": {
+    "message": "Modalità schermo"
+  },
+  "modeBrowser": {
+    "message": "Browser"
+  },
+  "modeFullscreen": {
+    "message": "Schermo intero"
+  },
+  "back": {
+    "message": "Indietro"
+  },
+  "tabs": {
+    "message": "Schede"
+  },
+  "tablets": {
+    "message": "Tablet"
+  },
+  "unfolded": {
+    "message": "aperto"
+  },
+  "cspBlocked": {
+    "message": "Questa pagina non consente la navigazione nel simulatore"
+  },
+  "cspReloading": {
+    "message": "Ricaricamento della pagina per consentire la navigazione al telefono…"
+  },
+  "capturing": {
+    "message": "Acquisizione in alta risoluzione…"
+  },
+  "shotSaved": {
+    "message": "Screenshot salvato"
+  },
+  "shotFailed": {
+    "message": "Impossibile acquisire lo screenshot"
+  },
+  "noResponse": {
+    "message": "l'estensione non ha risposto"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "行動裝置模擬器"
+  },
+  "extDescription": {
+    "message": "在 iPhone、Android 和平板電腦外框中測試任何網站的響應式效果。"
+  },
+  "actionTitle": {
+    "message": "在行動裝置模擬器中開啟"
+  },
+  "simulator": {
+    "message": "模擬器"
+  },
+  "close": {
+    "message": "關閉模擬器"
+  },
+  "device": {
+    "message": "裝置"
+  },
+  "urlPlaceholder": {
+    "message": "搜尋或輸入網址"
+  },
+  "address": {
+    "message": "網址"
+  },
+  "reload": {
+    "message": "重新載入"
+  },
+  "rotate": {
+    "message": "旋轉"
+  },
+  "screenshot": {
+    "message": "螢幕截圖"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "zoomIn": {
+    "message": "放大"
+  },
+  "zoomOut": {
+    "message": "縮小"
+  },
+  "actualSize": {
+    "message": "實際大小"
+  },
+  "fit": {
+    "message": "符合視窗大小"
+  },
+  "deviceFrame": {
+    "message": "裝置外框"
+  },
+  "syncScroll": {
+    "message": "同步捲動"
+  },
+  "touchScroll": {
+    "message": "觸控捲動"
+  },
+  "appearance": {
+    "message": "外觀"
+  },
+  "theme": {
+    "message": "主題"
+  },
+  "themeSystem": {
+    "message": "系統"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "screenMode": {
+    "message": "顯示模式"
+  },
+  "modeBrowser": {
+    "message": "瀏覽器"
+  },
+  "modeFullscreen": {
+    "message": "全螢幕"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "tabs": {
+    "message": "分頁"
+  },
+  "tablets": {
+    "message": "平板電腦"
+  },
+  "unfolded": {
+    "message": "展開"
+  },
+  "cspBlocked": {
+    "message": "此網頁不允許在模擬器內瀏覽"
+  },
+  "cspReloading": {
+    "message": "正在重新載入網頁，讓手機可以瀏覽…"
+  },
+  "capturing": {
+    "message": "正在以高解析度擷取…"
+  },
+  "shotSaved": {
+    "message": "已儲存螢幕截圖"
+  },
+  "shotFailed": {
+    "message": "無法擷取螢幕截圖"
+  },
+  "noResponse": {
+    "message": "擴充功能沒有回應"
+  }
+}

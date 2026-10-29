@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "モバイルシミュレーター"
+  },
+  "extDescription": {
+    "message": "あらゆるウェブサイトのレスポンシブ表示を iPhone、Android、タブレットのフレームで確認できます。"
+  },
+  "actionTitle": {
+    "message": "モバイルシミュレーターで開く"
+  },
+  "simulator": {
+    "message": "シミュレーター"
+  },
+  "close": {
+    "message": "シミュレーターを閉じる"
+  },
+  "device": {
+    "message": "デバイス"
+  },
+  "urlPlaceholder": {
+    "message": "検索またはアドレスを入力"
+  },
+  "address": {
+    "message": "アドレス"
+  },
+  "reload": {
+    "message": "再読み込み"
+  },
+  "rotate": {
+    "message": "回転"
+  },
+  "screenshot": {
+    "message": "スクリーンショット"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "zoomIn": {
+    "message": "拡大"
+  },
+  "zoomOut": {
+    "message": "縮小"
+  },
+  "actualSize": {
+    "message": "実際のサイズ"
+  },
+  "fit": {
+    "message": "ウィンドウに合わせる"
+  },
+  "deviceFrame": {
+    "message": "デバイスフレーム"
+  },
+  "syncScroll": {
+    "message": "スクロール同期"
+  },
+  "touchScroll": {
+    "message": "タッチスクロール"
+  },
+  "appearance": {
+    "message": "外観"
+  },
+  "theme": {
+    "message": "テーマ"
+  },
+  "themeSystem": {
+    "message": "システム"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "screenMode": {
+    "message": "表示モード"
+  },
+  "modeBrowser": {
+    "message": "ブラウザ"
+  },
+  "modeFullscreen": {
+    "message": "フルスクリーン"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "tabs": {
+    "message": "タブ"
+  },
+  "tablets": {
+    "message": "タブレット"
+  },
+  "unfolded": {
+    "message": "展開時"
+  },
+  "cspBlocked": {
+    "message": "このページはシミュレーター内での移動を許可していません"
+  },
+  "cspReloading": {
+    "message": "スマートフォン内で移動できるようにページを再読み込みしています…"
+  },
+  "capturing": {
+    "message": "高解像度でキャプチャしています…"
+  },
+  "shotSaved": {
+    "message": "スクリーンショットを保存しました"
+  },
+  "shotFailed": {
+    "message": "キャプチャできませんでした"
+  },
+  "noResponse": {
+    "message": "拡張機能が応答しませんでした"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "मोबाइल सिम्युलेटर"
+  },
+  "extDescription": {
+    "message": "iPhone, Android और टैबलेट फ़्रेम में किसी भी वेबसाइट की रिस्पॉन्सिवनेस जाँचें।"
+  },
+  "actionTitle": {
+    "message": "मोबाइल सिम्युलेटर में खोलें"
+  },
+  "simulator": {
+    "message": "सिम्युलेटर"
+  },
+  "close": {
+    "message": "सिम्युलेटर बंद करें"
+  },
+  "device": {
+    "message": "डिवाइस"
+  },
+  "urlPlaceholder": {
+    "message": "खोजें या पता लिखें"
+  },
+  "address": {
+    "message": "पता"
+  },
+  "reload": {
+    "message": "फिर से लोड करें"
+  },
+  "rotate": {
+    "message": "घुमाएँ"
+  },
+  "screenshot": {
+    "message": "स्क्रीनशॉट"
+  },
+  "settings": {
+    "message": "सेटिंग"
+  },
+  "zoomIn": {
+    "message": "ज़ूम इन"
+  },
+  "zoomOut": {
+    "message": "ज़ूम आउट"
+  },
+  "actualSize": {
+    "message": "असली आकार"
+  },
+  "fit": {
+    "message": "विंडो में फ़िट करें"
+  },
+  "deviceFrame": {
+    "message": "डिवाइस फ़्रेम"
+  },
+  "syncScroll": {
+    "message": "सिंक की गई स्क्रॉलिंग"
+  },
+  "touchScroll": {
+    "message": "टच स्क्रॉल"
+  },
+  "appearance": {
+    "message": "दिखावट"
+  },
+  "theme": {
+    "message": "थीम"
+  },
+  "themeSystem": {
+    "message": "सिस्टम"
+  },
+  "themeLight": {
+    "message": "हल्की"
+  },
+  "themeDark": {
+    "message": "गहरी"
+  },
+  "screenMode": {
+    "message": "डिस्प्ले मोड"
+  },
+  "modeBrowser": {
+    "message": "ब्राउज़र"
+  },
+  "modeFullscreen": {
+    "message": "फ़ुल स्क्रीन"
+  },
+  "back": {
+    "message": "पीछे"
+  },
+  "tabs": {
+    "message": "टैब"
+  },
+  "tablets": {
+    "message": "टैबलेट"
+  },
+  "unfolded": {
+    "message": "खुला"
+  },
+  "cspBlocked": {
+    "message": "यह पेज सिम्युलेटर के अंदर नेविगेट करने की अनुमति नहीं देता"
+  },
+  "cspReloading": {
+    "message": "पेज फिर से लोड हो रहा है ताकि फ़ोन नेविगेट कर सके…"
+  },
+  "capturing": {
+    "message": "हाई रिज़ॉल्यूशन में कैप्चर हो रहा है…"
+  },
+  "shotSaved": {
+    "message": "स्क्रीनशॉट सेव हो गया"
+  },
+  "shotFailed": {
+    "message": "कैप्चर नहीं हो सका"
+  },
+  "noResponse": {
+    "message": "एक्सटेंशन ने जवाब नहीं दिया"
+  }
+}

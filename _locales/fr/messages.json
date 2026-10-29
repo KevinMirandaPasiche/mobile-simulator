@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Simulateur mobile"
+  },
+  "extDescription": {
+    "message": "Testez l'adaptabilité de n'importe quel site dans des cadres d'iPhone, d'Android et de tablettes."
+  },
+  "actionTitle": {
+    "message": "Ouvrir dans le simulateur mobile"
+  },
+  "simulator": {
+    "message": "Simulateur"
+  },
+  "close": {
+    "message": "Fermer le simulateur"
+  },
+  "device": {
+    "message": "Appareil"
+  },
+  "urlPlaceholder": {
+    "message": "Rechercher ou saisir une adresse"
+  },
+  "address": {
+    "message": "Adresse"
+  },
+  "reload": {
+    "message": "Actualiser"
+  },
+  "rotate": {
+    "message": "Pivoter"
+  },
+  "screenshot": {
+    "message": "Capture d'écran"
+  },
+  "settings": {
+    "message": "Réglages"
+  },
+  "zoomIn": {
+    "message": "Zoom avant"
+  },
+  "zoomOut": {
+    "message": "Zoom arrière"
+  },
+  "actualSize": {
+    "message": "Taille réelle"
+  },
+  "fit": {
+    "message": "Ajuster à la fenêtre"
+  },
+  "deviceFrame": {
+    "message": "Cadre de l'appareil"
+  },
+  "syncScroll": {
+    "message": "Défilement synchronisé"
+  },
+  "touchScroll": {
+    "message": "Défilement tactile"
+  },
+  "appearance": {
+    "message": "Apparence"
+  },
+  "theme": {
+    "message": "Thème"
+  },
+  "themeSystem": {
+    "message": "Système"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "screenMode": {
+    "message": "Mode d'affichage"
+  },
+  "modeBrowser": {
+    "message": "Navigateur"
+  },
+  "modeFullscreen": {
+    "message": "Plein écran"
+  },
+  "back": {
+    "message": "Retour"
+  },
+  "tabs": {
+    "message": "Onglets"
+  },
+  "tablets": {
+    "message": "Tablettes"
+  },
+  "unfolded": {
+    "message": "déplié"
+  },
+  "cspBlocked": {
+    "message": "Cette page ne permet pas de naviguer dans le simulateur"
+  },
+  "cspReloading": {
+    "message": "Rechargement de la page pour que le téléphone puisse naviguer…"
+  },
+  "capturing": {
+    "message": "Capture en haute résolution…"
+  },
+  "shotSaved": {
+    "message": "Capture enregistrée"
+  },
+  "shotFailed": {
+    "message": "Échec de la capture"
+  },
+  "noResponse": {
+    "message": "l'extension n'a pas répondu"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Simulator Seluler"
+  },
+  "extDescription": {
+    "message": "Uji responsivitas situs web apa pun dalam bingkai iPhone, Android, dan tablet."
+  },
+  "actionTitle": {
+    "message": "Buka di simulator seluler"
+  },
+  "simulator": {
+    "message": "Simulator"
+  },
+  "close": {
+    "message": "Tutup simulator"
+  },
+  "device": {
+    "message": "Perangkat"
+  },
+  "urlPlaceholder": {
+    "message": "Telusuri atau ketik alamat"
+  },
+  "address": {
+    "message": "Alamat"
+  },
+  "reload": {
+    "message": "Muat ulang"
+  },
+  "rotate": {
+    "message": "Putar"
+  },
+  "screenshot": {
+    "message": "Tangkapan layar"
+  },
+  "settings": {
+    "message": "Setelan"
+  },
+  "zoomIn": {
+    "message": "Perbesar"
+  },
+  "zoomOut": {
+    "message": "Perkecil"
+  },
+  "actualSize": {
+    "message": "Ukuran sebenarnya"
+  },
+  "fit": {
+    "message": "Sesuaikan dengan jendela"
+  },
+  "deviceFrame": {
+    "message": "Bingkai perangkat"
+  },
+  "syncScroll": {
+    "message": "Gulir tersinkron"
+  },
+  "touchScroll": {
+    "message": "Gulir sentuh"
+  },
+  "appearance": {
+    "message": "Tampilan"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistem"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "screenMode": {
+    "message": "Mode layar"
+  },
+  "modeBrowser": {
+    "message": "Browser"
+  },
+  "modeFullscreen": {
+    "message": "Layar penuh"
+  },
+  "back": {
+    "message": "Kembali"
+  },
+  "tabs": {
+    "message": "Tab"
+  },
+  "tablets": {
+    "message": "Tablet"
+  },
+  "unfolded": {
+    "message": "terbuka"
+  },
+  "cspBlocked": {
+    "message": "Halaman ini tidak mengizinkan navigasi di dalam simulator"
+  },
+  "cspReloading": {
+    "message": "Memuat ulang halaman agar ponsel dapat bernavigasi…"
+  },
+  "capturing": {
+    "message": "Mengambil gambar resolusi tinggi…"
+  },
+  "shotSaved": {
+    "message": "Tangkapan layar disimpan"
+  },
+  "shotFailed": {
+    "message": "Gagal mengambil tangkapan layar"
+  },
+  "noResponse": {
+    "message": "ekstensi tidak merespons"
+  }
+}

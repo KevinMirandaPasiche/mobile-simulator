@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Мобильный симулятор"
+  },
+  "extDescription": {
+    "message": "Проверяйте адаптивность любого сайта в рамках iPhone, Android и планшетов."
+  },
+  "actionTitle": {
+    "message": "Открыть в мобильном симуляторе"
+  },
+  "simulator": {
+    "message": "Симулятор"
+  },
+  "close": {
+    "message": "Закрыть симулятор"
+  },
+  "device": {
+    "message": "Устройство"
+  },
+  "urlPlaceholder": {
+    "message": "Поиск или ввод адреса"
+  },
+  "address": {
+    "message": "Адрес"
+  },
+  "reload": {
+    "message": "Обновить"
+  },
+  "rotate": {
+    "message": "Повернуть"
+  },
+  "screenshot": {
+    "message": "Скриншот"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "zoomIn": {
+    "message": "Увеличить"
+  },
+  "zoomOut": {
+    "message": "Уменьшить"
+  },
+  "actualSize": {
+    "message": "Реальный размер"
+  },
+  "fit": {
+    "message": "По размеру окна"
+  },
+  "deviceFrame": {
+    "message": "Рамка устройства"
+  },
+  "syncScroll": {
+    "message": "Синхронная прокрутка"
+  },
+  "touchScroll": {
+    "message": "Сенсорная прокрутка"
+  },
+  "appearance": {
+    "message": "Оформление"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeSystem": {
+    "message": "Системная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "screenMode": {
+    "message": "Режим экрана"
+  },
+  "modeBrowser": {
+    "message": "Браузер"
+  },
+  "modeFullscreen": {
+    "message": "Полный экран"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "tabs": {
+    "message": "Вкладки"
+  },
+  "tablets": {
+    "message": "Планшеты"
+  },
+  "unfolded": {
+    "message": "разложен"
+  },
+  "cspBlocked": {
+    "message": "Эта страница не разрешает навигацию внутри симулятора"
+  },
+  "cspReloading": {
+    "message": "Перезагрузка страницы, чтобы в телефоне работала навигация…"
+  },
+  "capturing": {
+    "message": "Съёмка в высоком разрешении…"
+  },
+  "shotSaved": {
+    "message": "Скриншот сохранён"
+  },
+  "shotFailed": {
+    "message": "Не удалось сделать скриншот"
+  },
+  "noResponse": {
+    "message": "расширение не ответило"
+  }
+}

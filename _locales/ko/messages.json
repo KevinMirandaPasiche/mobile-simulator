@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "모바일 시뮬레이터"
+  },
+  "extDescription": {
+    "message": "iPhone, Android, 태블릿 프레임에서 모든 웹사이트의 반응형 디자인을 테스트하세요."
+  },
+  "actionTitle": {
+    "message": "모바일 시뮬레이터에서 열기"
+  },
+  "simulator": {
+    "message": "시뮬레이터"
+  },
+  "close": {
+    "message": "시뮬레이터 닫기"
+  },
+  "device": {
+    "message": "기기"
+  },
+  "urlPlaceholder": {
+    "message": "검색 또는 주소 입력"
+  },
+  "address": {
+    "message": "주소"
+  },
+  "reload": {
+    "message": "새로고침"
+  },
+  "rotate": {
+    "message": "회전"
+  },
+  "screenshot": {
+    "message": "스크린샷"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "zoomIn": {
+    "message": "확대"
+  },
+  "zoomOut": {
+    "message": "축소"
+  },
+  "actualSize": {
+    "message": "실제 크기"
+  },
+  "fit": {
+    "message": "창에 맞추기"
+  },
+  "deviceFrame": {
+    "message": "기기 프레임"
+  },
+  "syncScroll": {
+    "message": "스크롤 동기화"
+  },
+  "touchScroll": {
+    "message": "터치 스크롤"
+  },
+  "appearance": {
+    "message": "모양"
+  },
+  "theme": {
+    "message": "테마"
+  },
+  "themeSystem": {
+    "message": "시스템"
+  },
+  "themeLight": {
+    "message": "라이트"
+  },
+  "themeDark": {
+    "message": "다크"
+  },
+  "screenMode": {
+    "message": "화면 모드"
+  },
+  "modeBrowser": {
+    "message": "브라우저"
+  },
+  "modeFullscreen": {
+    "message": "전체 화면"
+  },
+  "back": {
+    "message": "뒤로"
+  },
+  "tabs": {
+    "message": "탭"
+  },
+  "tablets": {
+    "message": "태블릿"
+  },
+  "unfolded": {
+    "message": "펼침"
+  },
+  "cspBlocked": {
+    "message": "이 페이지는 시뮬레이터 내 탐색을 허용하지 않습니다"
+  },
+  "cspReloading": {
+    "message": "휴대폰에서 탐색할 수 있도록 페이지를 새로고침하는 중…"
+  },
+  "capturing": {
+    "message": "고해상도로 캡처하는 중…"
+  },
+  "shotSaved": {
+    "message": "스크린샷을 저장했습니다"
+  },
+  "shotFailed": {
+    "message": "캡처할 수 없습니다"
+  },
+  "noResponse": {
+    "message": "확장 프로그램이 응답하지 않았습니다"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Mobile Simulator"
+  },
+  "extDescription": {
+    "message": "Test any website's responsiveness in iPhone, Android and tablet frames."
+  },
+  "actionTitle": {
+    "message": "Open in mobile simulator"
+  },
+  "simulator": {
+    "message": "Simulator"
+  },
+  "close": {
+    "message": "Close simulator"
+  },
+  "device": {
+    "message": "Device"
+  },
+  "urlPlaceholder": {
+    "message": "Search or enter address"
+  },
+  "address": {
+    "message": "Address"
+  },
+  "reload": {
+    "message": "Reload"
+  },
+  "rotate": {
+    "message": "Rotate"
+  },
+  "screenshot": {
+    "message": "Screenshot"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "zoomIn": {
+    "message": "Zoom in"
+  },
+  "zoomOut": {
+    "message": "Zoom out"
+  },
+  "actualSize": {
+    "message": "Actual size"
+  },
+  "fit": {
+    "message": "Fit to window"
+  },
+  "deviceFrame": {
+    "message": "Device frame"
+  },
+  "syncScroll": {
+    "message": "Synced scrolling"
+  },
+  "touchScroll": {
+    "message": "Touch scrolling"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "screenMode": {
+    "message": "Display mode"
+  },
+  "modeBrowser": {
+    "message": "Browser"
+  },
+  "modeFullscreen": {
+    "message": "Fullscreen"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "tabs": {
+    "message": "Tabs"
+  },
+  "tablets": {
+    "message": "Tablets"
+  },
+  "unfolded": {
+    "message": "unfolded"
+  },
+  "cspBlocked": {
+    "message": "This page doesn't allow navigating inside the simulator"
+  },
+  "cspReloading": {
+    "message": "Reloading the page so the phone can navigate…"
+  },
+  "capturing": {
+    "message": "Capturing in high resolution…"
+  },
+  "shotSaved": {
+    "message": "Screenshot saved"
+  },
+  "shotFailed": {
+    "message": "Couldn't capture"
+  },
+  "noResponse": {
+    "message": "the extension didn't respond"
+  }
+}

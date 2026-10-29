@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Mobil Simülatör"
+  },
+  "extDescription": {
+    "message": "Herhangi bir web sitesinin duyarlılığını iPhone, Android ve tablet çerçevelerinde test edin."
+  },
+  "actionTitle": {
+    "message": "Mobil simülatörde aç"
+  },
+  "simulator": {
+    "message": "Simülatör"
+  },
+  "close": {
+    "message": "Simülatörü kapat"
+  },
+  "device": {
+    "message": "Cihaz"
+  },
+  "urlPlaceholder": {
+    "message": "Ara veya adres yaz"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "reload": {
+    "message": "Yeniden yükle"
+  },
+  "rotate": {
+    "message": "Döndür"
+  },
+  "screenshot": {
+    "message": "Ekran görüntüsü"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "zoomIn": {
+    "message": "Yakınlaştır"
+  },
+  "zoomOut": {
+    "message": "Uzaklaştır"
+  },
+  "actualSize": {
+    "message": "Gerçek boyut"
+  },
+  "fit": {
+    "message": "Pencereye sığdır"
+  },
+  "deviceFrame": {
+    "message": "Cihaz çerçevesi"
+  },
+  "syncScroll": {
+    "message": "Senkronize kaydırma"
+  },
+  "touchScroll": {
+    "message": "Dokunmatik kaydırma"
+  },
+  "appearance": {
+    "message": "Görünüm"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistem"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "screenMode": {
+    "message": "Ekran modu"
+  },
+  "modeBrowser": {
+    "message": "Tarayıcı"
+  },
+  "modeFullscreen": {
+    "message": "Tam ekran"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "tabs": {
+    "message": "Sekmeler"
+  },
+  "tablets": {
+    "message": "Tabletler"
+  },
+  "unfolded": {
+    "message": "açık"
+  },
+  "cspBlocked": {
+    "message": "Bu sayfa simülatör içinde gezinmeye izin vermiyor"
+  },
+  "cspReloading": {
+    "message": "Telefonun gezinebilmesi için sayfa yeniden yükleniyor…"
+  },
+  "capturing": {
+    "message": "Yüksek çözünürlükte yakalanıyor…"
+  },
+  "shotSaved": {
+    "message": "Ekran görüntüsü kaydedildi"
+  },
+  "shotFailed": {
+    "message": "Ekran görüntüsü alınamadı"
+  },
+  "noResponse": {
+    "message": "uzantı yanıt vermedi"
+  }
+}

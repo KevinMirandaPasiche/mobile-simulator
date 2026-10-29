@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "Simulador Móvel"
+  },
+  "extDescription": {
+    "message": "Teste a responsividade de qualquer site em molduras de iPhone, Android e tablets."
+  },
+  "actionTitle": {
+    "message": "Abrir no simulador móvel"
+  },
+  "simulator": {
+    "message": "Simulador"
+  },
+  "close": {
+    "message": "Fechar simulador"
+  },
+  "device": {
+    "message": "Dispositivo"
+  },
+  "urlPlaceholder": {
+    "message": "Pesquisar ou digitar endereço"
+  },
+  "address": {
+    "message": "Endereço"
+  },
+  "reload": {
+    "message": "Recarregar"
+  },
+  "rotate": {
+    "message": "Girar"
+  },
+  "screenshot": {
+    "message": "Captura de tela"
+  },
+  "settings": {
+    "message": "Configurações"
+  },
+  "zoomIn": {
+    "message": "Aumentar zoom"
+  },
+  "zoomOut": {
+    "message": "Diminuir zoom"
+  },
+  "actualSize": {
+    "message": "Tamanho real"
+  },
+  "fit": {
+    "message": "Ajustar à janela"
+  },
+  "deviceFrame": {
+    "message": "Moldura do dispositivo"
+  },
+  "syncScroll": {
+    "message": "Rolagem sincronizada"
+  },
+  "touchScroll": {
+    "message": "Rolagem por toque"
+  },
+  "appearance": {
+    "message": "Aparência"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "screenMode": {
+    "message": "Modo de tela"
+  },
+  "modeBrowser": {
+    "message": "Navegador"
+  },
+  "modeFullscreen": {
+    "message": "Tela cheia"
+  },
+  "back": {
+    "message": "Voltar"
+  },
+  "tabs": {
+    "message": "Abas"
+  },
+  "tablets": {
+    "message": "Tablets"
+  },
+  "unfolded": {
+    "message": "aberto"
+  },
+  "cspBlocked": {
+    "message": "Esta página não permite navegar dentro do simulador"
+  },
+  "cspReloading": {
+    "message": "Recarregando a página para que o telefone possa navegar…"
+  },
+  "capturing": {
+    "message": "Capturando em alta resolução…"
+  },
+  "shotSaved": {
+    "message": "Captura salva"
+  },
+  "shotFailed": {
+    "message": "Não foi possível capturar"
+  },
+  "noResponse": {
+    "message": "a extensão não respondeu"
+  }
+}

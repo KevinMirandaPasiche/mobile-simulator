@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "移动设备模拟器"
+  },
+  "extDescription": {
+    "message": "在 iPhone、Android 和平板电脑边框中测试任意网站的响应式效果。"
+  },
+  "actionTitle": {
+    "message": "在移动设备模拟器中打开"
+  },
+  "simulator": {
+    "message": "模拟器"
+  },
+  "close": {
+    "message": "关闭模拟器"
+  },
+  "device": {
+    "message": "设备"
+  },
+  "urlPlaceholder": {
+    "message": "搜索或输入网址"
+  },
+  "address": {
+    "message": "地址"
+  },
+  "reload": {
+    "message": "重新加载"
+  },
+  "rotate": {
+    "message": "旋转"
+  },
+  "screenshot": {
+    "message": "截图"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "zoomIn": {
+    "message": "放大"
+  },
+  "zoomOut": {
+    "message": "缩小"
+  },
+  "actualSize": {
+    "message": "实际大小"
+  },
+  "fit": {
+    "message": "适应窗口"
+  },
+  "deviceFrame": {
+    "message": "设备边框"
+  },
+  "syncScroll": {
+    "message": "同步滚动"
+  },
+  "touchScroll": {
+    "message": "触摸滚动"
+  },
+  "appearance": {
+    "message": "外观"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeSystem": {
+    "message": "跟随系统"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "screenMode": {
+    "message": "显示模式"
+  },
+  "modeBrowser": {
+    "message": "浏览器"
+  },
+  "modeFullscreen": {
+    "message": "全屏"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "tabs": {
+    "message": "标签页"
+  },
+  "tablets": {
+    "message": "平板电脑"
+  },
+  "unfolded": {
+    "message": "展开"
+  },
+  "cspBlocked": {
+    "message": "此页面不允许在模拟器内导航"
+  },
+  "cspReloading": {
+    "message": "正在重新加载页面，以便手机可以导航…"
+  },
+  "capturing": {
+    "message": "正在以高分辨率截图…"
+  },
+  "shotSaved": {
+    "message": "截图已保存"
+  },
+  "shotFailed": {
+    "message": "无法截图"
+  },
+  "noResponse": {
+    "message": "扩展程序没有响应"
+  }
+}
