@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "hero": "node render.js",
-    "devices": "node render.js devices"
+    "devices": "node render.js devices",
+    "icons": "python3 icon/gen.py && node render.js icons"
   },
   "devDependencies": {
     "puppeteer": "^24.0.0"

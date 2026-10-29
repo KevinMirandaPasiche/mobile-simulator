@@ -1,5 +1,6 @@
 // node render.js          → ../hero.png (2560×1280) and ../social-preview.png (1280×640) from hero.html
 // node render.js devices  → devices/*.png, captured with the extension's own screenshot button on site/index.html
+// node render.js icons    → icons/*.png at the extension root, from icon/*.svg (written by icon/gen.py)
 const puppeteer = require('puppeteer');
 const http = require('http');
 const fs = require('fs');
@@ -21,6 +22,17 @@ async function hero() {
   await page.screenshot({ path: path.join(__dirname, '../hero.png') });
   await page.setViewport({ width: 1280, height: 640, deviceScaleFactor: 1 });
   await page.screenshot({ path: path.join(__dirname, '../social-preview.png') });
+  await browser.close();
+}
+
+async function icons() {
+  const browser = await puppeteer.launch({ args: ARGS });
+  const page = await browser.newPage();
+  for (const size of [16, 32, 48, 128]) {
+    await page.setViewport({ width: size, height: size });
+    await page.setContent('<style>body{margin:0}svg{display:block}</style>' + fs.readFileSync(path.join(__dirname, `icon/${size}.svg`)));
+    await page.screenshot({ path: path.join(EXT, `icons/${size}.png`), omitBackground: true });
+  }
   await browser.close();
 }
 
@@ -62,4 +74,4 @@ async function devices() {
   server.close();
 }
 
-(process.argv[2] === 'devices' ? devices : hero)().catch((e) => { console.error(e); process.exit(1); });
+({ devices, icons }[process.argv[2]] ?? hero)().catch((e) => { console.error(e); process.exit(1); });
