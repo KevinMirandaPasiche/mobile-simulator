@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "hero": "node render.js",
+    "devices": "node render.js devices"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

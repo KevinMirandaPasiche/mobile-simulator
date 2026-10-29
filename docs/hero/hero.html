@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hero</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    position: relative; font-family: Inter, system-ui, sans-serif; font-optical-sizing: auto;
+    color: #1d1d1f; -webkit-font-smoothing: antialiased;
+    background:
+      radial-gradient(520px 420px at 930px 360px, rgb(255 138 120 / 0.16), transparent 70%),
+      radial-gradient(560px 460px at 1080px 260px, rgb(139 92 246 / 0.13), transparent 70%),
+      linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%);
+  }
+
+  .copy { position: absolute; left: 88px; top: 50%; translate: 0 -50%; width: 500px; }
+  .app { display: flex; align-items: center; gap: 12px; font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+  .app img { width: 44px; height: 44px; border-radius: 11px; box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 6px 14px -6px rgb(30 20 60 / 0.25); }
+  h1 { margin-top: 26px; font-size: 72px; line-height: 1.0; font-weight: 720; letter-spacing: -0.045em; }
+  h1 span { background: linear-gradient(95deg, #ff7a59 0%, #ff4f8b 38%, #8b5cf6 78%, #5b7cfa 100%); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: 4px; }
+  p { margin-top: 24px; max-width: 440px; font-size: 22px; line-height: 1.36; font-weight: 450; letter-spacing: -0.012em; color: #6e6e73; text-wrap: balance; }
+  .meta { display: flex; gap: 8px; margin-top: 30px; }
+  .meta b { padding: 8px 14px; border-radius: 999px; font-size: 14px; font-weight: 550; letter-spacing: -0.005em; color: #3a3a3f;
+    background: rgb(255 255 255 / 0.7); box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.06), 0 1px 2px rgb(0 0 0 / 0.04); }
+
+  /* Devices: real captures from the extension, layered back to front. */
+  .dev { position: absolute; display: block; }
+  .ipad   { left: 740px; top: 44px;  height: 560px; filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.06)) drop-shadow(0 22px 36px rgb(40 30 80 / 0.16)); }
+  .pixel  { left: 1000px; top: 150px; height: 462px; filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.08)) drop-shadow(0 26px 40px rgb(40 30 80 / 0.22)); }
+  .iphone { left: 628px; top: 112px; height: 500px; filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.08)) drop-shadow(0 30px 44px rgb(40 30 80 / 0.24)); }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="app"><img src="../../icons/128.png" alt="">Mobile Simulator</div>
+    <h1>Every screen.<br><span>One click.</span></h1>
+    <p>Test any website in real iPhone, Android and iPad frames, right inside Chrome.</p>
+    <div class="meta"><b>13 devices</b><b>Touch scrolling</b><b>Retina screenshots</b></div>
+  </div>
+  <img class="dev ipad" src="devices/ipad.png" alt="">
+  <img class="dev pixel" src="devices/pixel.png" alt="">
+  <img class="dev iphone" src="devices/iphone.png" alt="">
+</body>
+</html>

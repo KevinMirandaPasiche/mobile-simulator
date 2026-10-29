@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Horizon</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #111114; --muted: #6e6e76; --line: rgb(0 0 0 / 0.07); --bg: #ffffff; --soft: #f4f4f7;
+    font-family: Inter, system-ui, sans-serif; font-optical-sizing: auto; color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); padding: 0 18px 40px; }
+
+  header { display: flex; align-items: center; justify-content: space-between; height: 58px; }
+  .brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 19px; letter-spacing: -0.02em; }
+  .mark { width: 26px; height: 26px; border-radius: 9px; background: conic-gradient(from 200deg, #ff7a59, #ff4f8b, #8b5cf6, #3b82f6, #ff7a59); }
+  nav { display: none; gap: 26px; font-size: 15px; font-weight: 500; color: var(--muted); }
+  nav b { color: var(--ink); font-weight: 600; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; background: linear-gradient(135deg, #fbc2a8, #f08aa6); box-shadow: inset 0 0 0 2px #fff, 0 0 0 1px var(--line); }
+
+  /* Hero "photo": sky, sun and mountain ridges, all CSS. */
+  .hero { position: relative; height: 330px; border-radius: 28px; overflow: hidden; color: #fff;
+    background: linear-gradient(180deg, #ffb27a 0%, #ff7d86 38%, #b36bd8 72%, #6b5bd6 100%); }
+  .sun { position: absolute; left: 62%; top: 34%; width: 92px; height: 92px; border-radius: 50%;
+    background: radial-gradient(circle, #fff6d8 0 45%, rgb(255 236 190 / 0.55) 46%, transparent 70%); }
+  .ridge { position: absolute; inset: auto 0 0 0; }
+  .r1 { height: 62%; background: #a35cc4; clip-path: polygon(0 55%, 14% 30%, 27% 48%, 42% 12%, 58% 44%, 71% 26%, 86% 50%, 100% 32%, 100% 100%, 0 100%); opacity: .75; }
+  .r2 { height: 48%; background: #6d43b8; clip-path: polygon(0 40%, 18% 62%, 33% 30%, 50% 58%, 66% 22%, 82% 54%, 100% 36%, 100% 100%, 0 100%); }
+  .r3 { height: 30%; background: #3b2a86; clip-path: polygon(0 50%, 22% 28%, 40% 60%, 61% 34%, 79% 64%, 100% 42%, 100% 100%, 0 100%); }
+  .hero .copy { position: absolute; left: 22px; right: 22px; top: 24px; }
+  .kicker { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; opacity: .85; }
+  .hero h1 { margin-top: 8px; font-size: 34px; line-height: 1.04; font-weight: 750; letter-spacing: -0.035em; text-wrap: balance; }
+  .search { position: absolute; left: 16px; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 10px; height: 50px; padding: 0 8px 0 18px;
+    border-radius: 25px; background: rgb(255 255 255 / 0.22); backdrop-filter: blur(18px) saturate(1.6); box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.35);
+    font-size: 15px; font-weight: 500; color: rgb(255 255 255 / 0.92); }
+  .search span { flex: 1; }
+  .go { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: #fff; color: #6d43b8; font-weight: 700; }
+
+  .chips { display: flex; gap: 8px; margin: 18px 0 22px; overflow: hidden; }
+  .chip { flex: none; padding: 9px 15px; border-radius: 999px; background: var(--soft); font-size: 14px; font-weight: 550; color: #3a3a40; }
+  .chip.on { background: var(--ink); color: #fff; }
+
+  .head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px; }
+  h2 { font-size: 21px; font-weight: 700; letter-spacing: -0.025em; }
+  .head a { font-size: 14px; font-weight: 550; color: #7c4dff; text-decoration: none; }
+
+  .grid { display: grid; gap: 14px; }
+  .card { border-radius: 22px; overflow: hidden; background: #fff; box-shadow: 0 0 0 1px var(--line), 0 10px 24px -14px rgb(30 20 60 / 0.35); }
+  .pic { position: relative; height: 150px; }
+  .pic::after { content: ''; position: absolute; inset: auto 0 0 0; height: 45%; clip-path: polygon(0 60%, 25% 35%, 45% 55%, 70% 25%, 100% 50%, 100% 100%, 0 100%); }
+  .sea { background: linear-gradient(180deg, #8ee3f5, #3fb6e0 55%, #1f7fd0); }
+  .sea::after { background: #f3dfb4; clip-path: polygon(0 75%, 40% 62%, 100% 80%, 100% 100%, 0 100%); }
+  .dune { background: linear-gradient(180deg, #ffd59a, #ffab6b 60%, #f2795a); }
+  .dune::after { background: #d9653f; }
+  .forest { background: linear-gradient(180deg, #c8f2c2, #6ccf8e 55%, #2e9c6a); }
+  .forest::after { background: #1f6e4f; }
+  .night { background: linear-gradient(180deg, #1c1a4d, #3b3a8f 60%, #6a5ccf); }
+  .night::after { background: #120f33; clip-path: polygon(0 70%, 8% 70%, 8% 40%, 16% 40%, 16% 55%, 26% 55%, 26% 20%, 34% 20%, 34% 50%, 46% 50%, 46% 30%, 56% 30%, 56% 60%, 70% 60%, 70% 35%, 80% 35%, 80% 55%, 100% 55%, 100% 100%, 0 100%); }
+  .like { position: absolute; z-index: 1; right: 12px; top: 12px; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%;
+    background: rgb(255 255 255 / 0.8); backdrop-filter: blur(10px); color: #ff4f8b; font-size: 15px; }
+  .info { padding: 12px 14px 14px; }
+  .info h3 { font-size: 16px; font-weight: 650; letter-spacing: -0.015em; }
+  .meta { display: flex; justify-content: space-between; margin-top: 4px; font-size: 13.5px; color: var(--muted); }
+  .meta b { color: var(--ink); font-weight: 650; }
+
+  @media (min-width: 640px) {
+    body { padding: 0 32px 40px; }
+    header { height: 72px; }
+    nav { display: flex; }
+    .hero { height: 420px; border-radius: 32px; }
+    .hero .copy { left: 40px; top: 44px; max-width: 460px; }
+    .hero h1 { font-size: 52px; }
+    .search { left: 40px; right: auto; width: 420px; bottom: 32px; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .pic { height: 196px; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand"><i class="mark"></i>Horizon</div>
+    <nav><b>Explore</b><span>Trips</span><span>Saved</span><span>Inbox</span></nav>
+    <i class="avatar"></i>
+  </header>
+
+  <section class="hero">
+    <div class="sun"></div><div class="ridge r1"></div><div class="ridge r2"></div><div class="ridge r3"></div>
+    <div class="copy"><p class="kicker">Spring escapes</p><h1>Find your next horizon</h1></div>
+    <div class="search"><span>Where to next?</span><b class="go">→</b></div>
+  </section>
+
+  <div class="chips"><span class="chip on">Mountains</span><span class="chip">Beaches</span><span class="chip">Cities</span><span class="chip">Deserts</span><span class="chip">Forests</span></div>
+
+  <div class="head"><h2>Trending this week</h2><a href="#">See all</a></div>
+  <div class="grid">
+    <article class="card"><div class="pic sea"><b class="like">♥</b></div><div class="info"><h3>Azure Coast</h3><div class="meta"><span>★ 4.9 · Portugal</span><b>$184</b></div></div></article>
+    <article class="card"><div class="pic dune"><b class="like">♥</b></div><div class="info"><h3>Golden Dunes</h3><div class="meta"><span>★ 4.8 · Morocco</span><b>$129</b></div></div></article>
+    <article class="card"><div class="pic forest"><b class="like">♥</b></div><div class="info"><h3>Emerald Valley</h3><div class="meta"><span>★ 4.9 · Norway</span><b>$212</b></div></div></article>
+    <article class="card"><div class="pic night"><b class="like">♥</b></div><div class="info"><h3>Neon Nights</h3><div class="meta"><span>★ 4.7 · Japan</span><b>$168</b></div></div></article>
+  </div>
+</body>
+</html>
